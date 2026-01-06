@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-dancing: "Dancing Script", "cursive";
+}
+
+@theme {
+  --font-garamond: "EB Garamond", "serif";
+}
