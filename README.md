@@ -44,7 +44,11 @@ carousel/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/AljuSabu/Corousel
+<<<<<<< HEAD
+   git clone https://github.com/AljuSabu/Corousel.git
+=======
+   git clone https://github.com/AljuSabu/Corousel.git
+>>>>>>> e4b32bbf88a16a9ed7240e6a2625f8206c55df92
    ```
 
 2. **Navigate to the project folder**
