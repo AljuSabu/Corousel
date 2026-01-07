@@ -19,12 +19,12 @@ const Banner = ({users}) => {
   };
 
   return (
-    <div className='w-350 max-h-200 pr-30 flex flex-col justify-center'>
+    <div className='w-70 md:w-140 lg:w-180 xl:w-250 2xl:w-350 max-h-170 lg:pr-10 xl:pr-20 2xl:pr-30 '>
     <Slider {...settings}>
       {
         users.map(user =>(
           <div key={user.id}>
-            <div className='p-3 flex justify-between items-center'>
+            <div className='p-1 md:p-3 flex flex-col-reverse lg:flex-row lg:justify-between items-center'>
               <InfoCard user={user} />
               <ImgCard image={user.image} name={user.name} />
             </div>
